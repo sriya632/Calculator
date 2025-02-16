@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+    <body>
+        <h1>Calculator</h1>
+        <p>
+            <button onClick="console.log(calculation+=1)">1</button>
+            <button onClick="console.log(calculation+=2)">2</button>
+            <button onClick="console.log(calculation+=3)">3</button>
+            <button onclick="console.log(calculation= calculation + ' + ')">+</button>
+            
+        </p>
+        <p>
+            <button onClick="console.log(calculation+=4)">4</button>
+            <button onClick="console.log(calculation+=5)">5</button>
+            <button onClick="console.log(calculation+=6)">6</button>
+            <button onclick="console.log(calculation= calculation + ' - ')">-</button>
+        </p>
+        <p>
+            <button onClick="console.log(calculation+=7)">7</button>
+            <button onClick="console.log(calculation+=8)">8</button>
+            <button onClick="console.log(calculation+=9)">9</button>
+            <button onclick="console.log(calculation= calculation + ' * ')">*</button>
+        </p>
+        <p>
+            <button onClick="console.log(calculation+=0)">0</button>
+            <button onClick="console.log(calculation= calculation + ' . ')">.</button>
+            <button onClick="console.log(alert(`Total final = ${eval(calculation)}`))">=</button>
+            <button onclick="console.log(calculation= calculation + ' / ')">/</button>
+        </p>
+        <p>
+            <button onClick="console.log(calculation=0)">Clear</button>
+        </p>
+    </body>
+    <script>
+        let calculation=0;
+    </script>
+</html>
